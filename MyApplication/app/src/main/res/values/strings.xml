@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">chatYTY</string>
+    <string name="display_name">display Name</string>
+    <string name="login_password_hint">Password</string>
+    <string name="already_nhave_an_naccount">Already \nhave an \nAccount?</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="new_user_register_now">New user? Register Now</string>
+    <string name="use_other_methods">Use other Methods</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="name">username</string>
+    <string name="save_register">register</string>
+    <string name="save_login">login</string>
+    <string name="you_have_a_count_login_here">you have a count? login here!</string>
+    <string name="welcome">Welcome!</string>
+    <string name="register">you have not acount? please register here!</string>
+    <string name="welcomeLogin">welcome back!</string>
+    <string name="contacts">contacts</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="enter_username">enter username</string>
+    <string name="submit">submit</string>
+    <string name="mode">night mode</string>
+</resources>

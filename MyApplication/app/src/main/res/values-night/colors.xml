@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">#606965</color>
+    <color name="TextColor">#FFFFFF</color>"
+    <color name="bk_color">#6F776F</color>
+    <color name="button_color">#4F4B55</color>
+    <color name="main_chat_background">#303130</color>
+
+</resources>
