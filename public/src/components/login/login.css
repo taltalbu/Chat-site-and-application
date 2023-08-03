@@ -1,0 +1,210 @@
+.container-loginScreen ::selection {
+  background: #4158d0;
+  color: #fff;
+}
+
+.container-loginScreen {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  place-items: center;
+  background: #b7d3b8;
+  /* background: linear-gradient(-135deg, #c850c0, #4158d0); */
+}
+
+.container-loginScreen .card-loginScreen {
+  display: grid;
+  width: 50%;
+
+  place-items: center;
+}
+
+.wrapper-loginScreen {
+
+  width: 70%;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.wrapper-loginScreen .title-loginScreen {
+  font-size: 2.0rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: 100px;
+  color: #fff;
+  user-select: none;
+  border-radius: 15px 15px 0 0;
+  background: linear-gradient(-135deg, #7be88d, #bdeeb9);
+}
+
+.wrapper-loginScreen form {
+  padding: 10px 30px 50px 30px;
+  width: 100%;
+  max-width: 540px;
+  margin: 0 auto;
+
+}
+
+.wrapper-loginScreen form .field {
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+}
+
+.wrapper-loginScreen form .field input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 1.0rem;
+  padding-left: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.wrapper-loginScreen form .field input:focus,
+form .field input:valid {
+  border-color: #4158d0;
+}
+
+.wrapper-loginScreen form .field label {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  color: #999999;
+  font-weight: 400;
+  font-size: 1.0rem;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+  max-width: calc(100% - 40px);
+  /* Width of input field minus padding */
+  white-space: nowrap;
+  /* Prevent label text from wrapping */
+  overflow: hidden;
+  /* Hide label text when it exceeds maximum width */
+  text-overflow: ellipsis;
+  /* Show ellipsis when label text is truncated */
+}
+
+.wrapper-loginScreen form .field input:focus~label,
+.wrapper-loginScreen form .field input:valid~label {
+  top: 0%;
+  font-size: 1.0rem;
+  color: #4158d0;
+  background: #fff;
+  transform: translateY(-50%);
+}
+
+.wrapper-loginScreen form .field input[type="submit"] {
+  color: #fff;
+  border: none;
+  padding-left: 0;
+  margin-top: -10px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  background: linear-gradient(-135deg, #7be88d, #bdeeb9);
+  transition: all 0.3s ease;
+}
+
+.wrapper-loginScreen form .field input[type="submit"]:active {
+  transform: scale(0.95);
+}
+
+.wrapper-loginScreen form .signup-link {
+  color: #262626;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.wrapper-loginScreen form .pass-link a,
+.wrapper-loginScreen form .signup-link a {
+  color: #4158d0;
+  text-decoration: none;
+}
+
+.wrapper-loginScreen form .pass-link a:hover,
+.wrapper-loginScreen form .signup-link a:hover {
+  text-decoration: underline;
+}
+
+.slogan-loginScreen {
+  margin-left: 50px;
+  width: 50%;
+  place-items: center;
+}
+
+.slogan-loginScreen img {
+  width: 60%;
+  border-radius: 50%;
+}
+
+.slogan-loginScreen h2 {
+  padding-left: 10%;
+}
+
+@media only screen and (max-width: 1000px) {
+  #SloganID-loginScreen {
+    display: none;
+    width: fit-content;
+
+  }
+
+  .container-loginScreen {
+    display: grid;
+    overflow-y: auto;
+
+  }
+
+  .card-loginScreen {
+    width: 380px;
+    place-items: center;
+  }
+
+  .card-loginScreen .wrapper-loginScreen {
+    width: 100%;
+  }
+
+  .wrapper-loginScreen .title-loginScreen {
+    font-size: 1.5rem;
+  }
+}
+
+
+.show-password {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.show-password img {
+  height: 80%;
+  /* Adjust the height as needed */
+  object-fit: contain;
+  border-radius: 50px;
+}
+
+/* Remove the eye button */
+input[type="password"]::-ms-reveal {
+  display: none;
+  appearance: none;
+}
+
+#usernameLoignScreen {
+  padding-right: 10px;
+}
+
+#passwordLoignScreen {
+  padding-right: 55px;
+}

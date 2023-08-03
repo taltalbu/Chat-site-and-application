@@ -1,0 +1,271 @@
+  .container-registerScreen {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #7be88d, #bdeeb9);
+  }
+
+  .container-card-registerScreen {
+    display: grid;
+    max-width: 700px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  /*header*/
+  .container-card-registerScreen .header-registerScreen {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+  }
+
+  .container-card-registerScreen .header-registerScreen .title-registerScreen {
+    margin-top: 10px;
+    display: flex;
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    height: 30px;
+  }
+
+  .container-card-registerScreen .header-registerScreen .title-registerScreen::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #7be88d, #bdeeb9);
+  }
+
+  .container-card-registerScreen .header-registerScreen .logo-registerScreen {
+    position: relative;
+    width: 70px;
+    height: 55px;
+  }
+
+  .container-card-registerScreen .header-registerScreen .logo-registerScreen img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /*end header*/
+
+
+  .container-card-registerScreen form .user-details-registerScreen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+  }
+
+  .container-card-registerScreen form .user-details-registerScreen .input-box-registerScreen {
+    margin-bottom: 25px;
+    width: calc(100% / 2 - 20px);
+  }
+
+  .container-card-registerScreen form .input-box-registerScreen span.details-registerScreen {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  .container-card-registerScreen form .input-box-registerScreen span.errorMessage-UsernameRegisterScreen {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  .container-card-registerScreen form .input-box-registerScreen img.errorMessage-UsernameRegisterScreen {
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .user-details-registerScreen .input-box-registerScreen input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+
+  .user-details-registerScreen .input-box-registerScreen input:focus,
+  .user-details-registerScreen .input-box-registerScreen input:valid {
+    border-color: #bdeeb9;
+  }
+
+  .content-registerScreen form .button-registerScreen {
+    height: 45px;
+    margin: 15px 0
+  }
+
+  .content-registerScreen form .button-registerScreen input {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #7be88d, #bdeeb9);
+  }
+
+  .content-registerScreen form .button-registerScreen input:hover {
+    /* transform: scale(0.99); */
+    background: linear-gradient(-135deg, #7be88d, #bdeeb9);
+  }
+
+  @media(max-width: 584px) {
+    .container {
+      max-width: 100%;
+    }
+
+    .content-registerScreen form .user-details-registerScreen .input-box-registerScreen {
+      margin-bottom: 15px;
+      width: 100%;
+    }
+
+    .content-registerScreen form .category-registerScreen {
+      width: 100%;
+    }
+
+    .content-registerScreen form .user-details-registerScreen {
+      max-height: 300px;
+      overflow-y: scroll;
+    }
+
+    .user-details-registerScreen::-webkit-scrollbar {
+      width: 5px;
+    }
+  }
+
+  @media(max-width: 459px) {
+    .container-registerScreen .content-registerScreen .category-registerScreen {
+      flex-direction: column;
+    }
+  }
+
+
+  #existing-account-registerScreen {
+    margin-top: inherit;
+  }
+
+  .github-link-registerScreen {
+    text-align: center;
+  }
+
+  .image-upload-container-registerScreen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .choose-image-text-registerScreen {
+    margin-right: 1rem;
+  }
+
+  .image-preview-registerScreen {
+    width: 50%;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  #file-upload-input-registerScreen {
+    display: none;
+  }
+
+  .file-input-container-registerScreen {
+    position: relative;
+    display: inline-block;
+    /* background-image: url(ChatYTYPic.png); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+  }
+
+  .file-input-container-registerScreen img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+
+  .file-input-container-registerScreen input[type="file"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+
+  .show-password {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+  }
+
+  .show-password img {
+    height: 80%;
+    /* Adjust the height as needed */
+    object-fit: contain;
+    border-radius: 50px;
+  }
+
+  /* Remove the eye button */
+  input[type="password"]::-ms-reveal {
+    display: none;
+    appearance: none;
+  }
+  #confirmPasswordRegisterScreen,
+  #displayNameRegisterScreen,
+  #usernameRegisterScreen {
+    padding-right: 10px;
+  }
+  
+  #passwordRegisterScreen {
+    padding-right: 55px;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .container-registerScreen {
+      height: 100%;
+    }
+
+    .container-card-registerScreen {
+      height: fit-content;
+      overflow-y: auto;
+    }
+  }
