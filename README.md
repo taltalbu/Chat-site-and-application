@@ -58,8 +58,16 @@ To run the server, follow these steps:
 npm start
 ``` 
 clients will be accessible in browsers at `http://localhost:5000`.<br>
-for more details about the client and server, please visit the previous tasks:
-[chatYTY web and server](https://github.com/yogev99/Part2ChatYTY)
+
+## The login screen
+<img width="960" alt="image" src="https://github.com/taltalbu/Chat-site-and-application/assets/117980942/d80b2edd-fb39-480e-bc9d-96c9974e51f1">
+
+## The register screen
+<img width="960" alt="image" src="https://github.com/taltalbu/Chat-site-and-application/assets/117980942/d82256ea-cab0-4182-816f-1bd1d3cdcfdb">
+
+## The chat screen
+<img width="960" alt="image" src="https://github.com/taltalbu/Chat-site-and-application/assets/117980942/c066821b-b2d7-4609-9d7b-521a9af5df4f">
+
 
 ### Android Version: 
 First, you must initialize the server as described above.
