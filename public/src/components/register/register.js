@@ -16,7 +16,7 @@ function RegisterPage() {
                 <div className="content-registerScreen">
                     <RegisterForm />
                     <div className="github-link-registerScreen">
-                        <a href="https://github.com/yehudastern/ChatYTY#readme" target="_blank" rel="noopener noreferrer">to know more about ChatYTY</a>
+                        <a href="https://github.com/taltalbu/Chat-site-and-application#readme" target="_blank" rel="noopener noreferrer">to know more about ChatYTY</a>
                     </div>
                 </div>
             </div>
