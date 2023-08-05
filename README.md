@@ -60,13 +60,13 @@ npm start
 clients will be accessible in browsers at `http://localhost:5000`.<br>
 
 ## The login screen
-<img width="960" alt="image" src="https://github.com/taltalbu/Chat-site-and-application/assets/117980942/d80b2edd-fb39-480e-bc9d-96c9974e51f1">
+<img width="960" alt="image" src="https://github.com/taltalbu/Chat-site-and-application/assets/117980942/68aae890-b290-4c3c-ab51-b954744d5258">
 
 ## The register screen
-<img width="960" alt="image" src="https://github.com/taltalbu/Chat-site-and-application/assets/117980942/d82256ea-cab0-4182-816f-1bd1d3cdcfdb">
+<img width="960" alt="image" src="https://github.com/taltalbu/Chat-site-and-application/assets/117980942/ac8fa764-84c5-4542-925d-e5d521348e68">
 
 ## The chat screen
-<img width="960" alt="image" src="https://github.com/taltalbu/Chat-site-and-application/assets/117980942/c066821b-b2d7-4609-9d7b-521a9af5df4f">
+<img width="960" alt="image" src="https://github.com/taltalbu/Chat-site-and-application/assets/117980942/74106dc1-fa87-49d8-ae61-6c1dbe36611b">
 
 
 ### Android Version: 
