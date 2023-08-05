@@ -93,7 +93,7 @@ function LoginForm() {
                 <label>Password</label>
             </div>
             <div className="signup-link">Want to know about ChatYTY?
-                <a href="https://github.com/yehudastern/ChatYTY#readme" target="_blank" rel="noopener noreferrer">Click here
+                <a href="https://github.com/taltalbu/Chat-site-and-application#readme" target="_blank" rel="noopener noreferrer">Click here
                 </a>
             </div>
             <div className="field">
